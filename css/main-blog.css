@@ -224,10 +224,10 @@ section{
 }
 
 
-@media (max-width: 300px) {
+@media (max-width: 400px) {
 
   .we__offer_content .blog-icon {
-    /* background-color: aqua; */
+    background-color: rgb(119, 0, 255);
     font-size: 0.5rem;
   }
  .we__offer_content .blog-icon .fa-regular{
