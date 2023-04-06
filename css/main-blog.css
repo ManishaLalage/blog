@@ -353,7 +353,7 @@ margin-left: 20px;
   font-weight: 500;
 }
   .we__offer_content .blog-icon {
-    background-color: rgb(255, 0, 204);
+    /* background-color: rgb(255, 0, 204); */
     font-size: 0.6rem;
   }
  .we__offer_content .blog-icon .fa-regular{
