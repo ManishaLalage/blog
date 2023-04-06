@@ -247,6 +247,36 @@ margin-left: 20px;
 
 
 
+
+
+
+/* .nav-btn{
+  height: 40px;
+  width: 40px;
+  border-radius:50%;
+  transform: translate(30px);
+  background-color: rgba(0,0,0,0.1);
+  transition: 0.2s;
+}
+.nav-btn:hover{
+  background-color: rgba(0,0,0,0.1);
+} */
+
+.nav-btn::after,
+.nav-btn::before{
+  font-size: 20px !important;
+  color: orangered;
+}
+.swiper-pagination-bullet{
+ background-color: orangered !important;
+}
+
+.swiper-pagination-bullet-active{
+  background-color: red !important;
+ }
+ 
+
+
 /* Resonsive */
 
 @media (max-width: 910px) {
@@ -267,14 +297,12 @@ margin-left: 20px;
   background-color: #fb2162;
   padding-top: 50px ;
   padding-bottom: 50px;
-
 } */
 
 
 /* .swipe{
   background-color: #21d3fb;
   padding:10px 5% ;
-
 } */
 
 }
@@ -285,7 +313,6 @@ margin-left: 20px;
 /* .swipe{
   background-color: #7c21fb;
   padding:90px 5% ;
-
 } */
 .swipe{
   /* background-color: #50fb21; */
@@ -412,4 +439,3 @@ padding-left: 4px;
 
 
 }
-
