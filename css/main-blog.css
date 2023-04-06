@@ -12,40 +12,16 @@
   scroll-behavior: smooth; 
 }
 
-
-/*=============== BASE ===============*/
-
-  :root {
-    --bg-color:-webkit-linear-gradient(0deg,#fa2424, #fb8721);
-    --second-color: #685f78;
-    --span-color:rgb(255, 38, 0);
-  
-  }
-
-
-
-
 /* section2 */
 section{
-  /* background-color: #9a9bb2; */
     transition: all 0.4s ease;
-    /* padding: 130px 20%; */
-
-  }
- 
+    } 
   .we__offer {
-   
-    
     margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
-    /* width: 420px; */
-    /* gap: 1.4rem; */
     align-content: center;
     justify-content: center;
-    /* background-color: #E1306C;
-     */
-    /* margin: 20%; */
   }
  
   .we__offer_card {
@@ -54,7 +30,6 @@ section{
     overflow: hidden;
       box-shadow: 0 0 25px 0 rgba(71, 69, 69, 0.4);
      transition: all 0.3s ease;
-    /* width: 410px; */
     width: auto;
     margin-bottom: 30px;
     height: auto;
@@ -67,36 +42,19 @@ section{
   }
 
   .we__offer_card .course_img .img-text{
-    /* position: absolute;
-background-color: orangered;
-    width: 50%;
-    padding: 30px 80px 30px 30px;
-    margin-left: -1%;
-    bottom: 0;
-    left: 0;
-    border-radius: 1000px 1000px 0px 0;
-    text-align: center; */
-
-
     position: absolute;
     background-color: orangered;
         width: 100%;
         padding: 10px;
-        /* padding: 30px 80px 30px 30px; */
-        /* margin-left: -1%; */
         bottom: 0;
         left: 0;
         border-top-left-radius: 20px;
         border-top-right-radius:20px ;
-        /* border-radius-\\\: 20px; */
-        /* border-radius: 1000px 1000px 0px 0; */
         text-align: center;
 
   }
   .we__offer_card .course_img .img-text .text{
     color: white;
-    /* padding:10px 70px 20px 0px; */
-       /* margin-bottom: -30%; */
        font-size: 1.1rem;
        font-weight:700 ;
     padding-right: 5px;
@@ -119,15 +77,12 @@ background-color: orangered;
     font-weight: 500;
     color: #9a9bb2;
     line-height: 1.6;
-
     gap: 1rem;
   }
   .we__offer_content .blog-icon span{
-    /* padding-left: 12px; */
     margin-right: 10px;
   }
   .we__offer_content .blog-icon i{
-    /* color: #e81212; */
     color: orangered;
     text-align: center;
    
@@ -141,8 +96,6 @@ padding-right: 10px;
     border-left: 1.5px solid #9a9bb2;
 padding-left: 20px;
   }
-
-  
   .we__offer_content h1 {
     display: inline;
     font-size:1rem;
@@ -151,8 +104,6 @@ padding-left: 20px;
   }
   
   .we__offer_content .subcontent p {
-
-    /* font-size: 1.1rem;/ */
     color: rgb(71, 71, 110);
     padding: 0px 0px 20px 10px;
     font-weight: 500;
@@ -164,10 +115,7 @@ padding-left: 20px;
     font-weight: 700;
   line-height:1.7rem;
     padding: 20px 12px;
-    /* color: #f21dc0; */
     color: rgb(71, 71, 110);
-    /* text-align: justify; */
-
   }
 
   .we__offer_content a{
@@ -182,11 +130,9 @@ padding-left: 20px;
     padding-bottom: 20px;
     font-weight: 650;
     font-size: 1.1rem;
-    /* margin:7%; */
     margin-left: 2%;
   }
   .course_btn span{
-    /* background-color: aqua; */
     border-bottom: 1.5px solid #868689    ;
   }
   .course_btn:hover {
@@ -201,35 +147,6 @@ padding-left: 20px;
 /* swiper */
 
 
-.swiper {
-  /* width: 100%; */
-  /* height: 100%; */
-  /* margin: 20%; */
-
-  /* padding: 130px 5%; */
-  /* background-color: aqua; */
-}
-
-/* .swiper-slide { */
-  /* text-align: center; */
-  /* font-size: 18px; */
-  /* background: #fff; */
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* background-color: #fb8721; */
-  /* margin: 20%; */
-
-  /* padding: 120px -44%; */
-/* } */
-
-/* .swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-} */
-
 .swipe{
   /* background-color: #6221fb; */
   padding:150px 5% ;
@@ -239,28 +156,6 @@ padding-left: 20px;
 .new{
   padding: 40px;
 }
-/* .swiper .mySwiper .new{
-  background-color: #74fb21;
-padding:150px 20% ;
-margin-left: 20px;
-} */
-
-
-
-
-
-
-/* .nav-btn{
-  height: 40px;
-  width: 40px;
-  border-radius:50%;
-  transform: translate(30px);
-  background-color: rgba(0,0,0,0.1);
-  transition: 0.2s;
-}
-.nav-btn:hover{
-  background-color: rgba(0,0,0,0.1);
-} */
 
 .nav-btn::after,
 .nav-btn::before{
@@ -280,58 +175,29 @@ margin-left: 20px;
 /* Resonsive */
 
 @media (max-width: 910px) {
-/* section{
-  padding: 130px 7%;
-} */
 
 .we__offer_content .blog-icon {
  
   font-size: 0.9rem;
-  /* font-weight: 500; */
   line-height: 1.6;
-
   gap: 0.9rem;
 }
-
-/* .swipe{
-  background-color: #fb2162;
-  padding-top: 50px ;
-  padding-bottom: 50px;
-} */
-
-
-/* .swipe{
-  background-color: #21d3fb;
-  padding:10px 5% ;
-} */
-
 }
 
 @media (max-width: 900px) {
-
-  
-/* .swipe{
-  background-color: #7c21fb;
-  padding:90px 5% ;
-} */
 .swipe{
-  /* background-color: #50fb21; */
   padding-top: 70px ;
   padding-bottom: 40px;
 
 }
-
   .we__offer_card {
-    width: 430px;
-    
+    width: 430px; 
   }
 
   .we__offer_content h2{
-
     font-size: 1.1rem;
     font-weight:700;
         padding: 10px 12px;
-        /* background-color: #fb8721; */
 
 }
 
@@ -340,36 +206,20 @@ margin-left: 20px;
   font-weight: 500;
 padding: 0px;
 }
-
-
-
-
-
-
-
-
-
 }
 
 
 @media (max-width: 450px) {
   .swipe{
-    /* background-color: #fb21c4; */
     padding-top: 50px ;
     padding-bottom: 30px;
-  
   }
-
   .we__offer_card  .course_img  img {
     width: 100%;
     height: 200px;
-    /* object-position: center; */
-    /* object-position: cover; */
   }
-
 .we__offer_content h2{
-  /* background-color: aquamarine; */
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 600;
   line-height: 1.2rem;
 }
@@ -380,20 +230,17 @@ padding: 0px;
 }
 
 .we__offer_content .subcontent p{
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   font-weight: 500;
   padding: 0px;
 }
   .we__offer_content .blog-icon {
-    /* background-color: rgb(255, 0, 204); */
     font-size: 0.6rem;
   }
  .we__offer_content .blog-icon .fa-regular{
     /* padding-left: 13px; */
     /* background-color: #fb8721; */
  }
-
-
  .we__offer_content .blog-icon .fa-regular{
   padding-right: 8 px;
   /* border-left: 1.5px solid #9a9bb2; */
@@ -425,17 +272,7 @@ padding-left: 10px;
   padding-right: 4 px;
   /* border-left: 1.5px solid #9a9bb2; */
 padding-left: 4px;
+} .we__offer_card .course_img .img-text .text{
+     font-size: 0.6rem; 
 }
- 
-
- .we__offer_card .course_img .img-text .text{
-  
-     font-size: 0.6rem;
-  
-}
-
-
-
-
-
 }
