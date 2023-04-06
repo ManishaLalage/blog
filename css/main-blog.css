@@ -198,99 +198,6 @@ padding-left: 20px;
 
 
 
-/* Resonsive */
-
-@media (max-width: 910px) {
-section{
-  padding: 130px 7%;
-}
-
-.we__offer_content .blog-icon {
- 
-  font-size: 0.9rem;
-  /* font-weight: 500; */
-  line-height: 1.6;
-
-  gap: 0.9rem;
-}
-
-}
-
-@media (max-width: 900px) {
-
-  .we__offer_card {
-/* background-color: cornflowerblue; */
-    width: 430px;
-    
-  }
-
-  .we__offer_content h2{
-
-    font-size: 1.1rem;
-    font-weight:700;
-}
-
-.we__offer_content .subcontent p {
-  font-size: o.6rem;
-  font-weight: 500;
-
-}
-
-
-
-
-
-
-
-
-
-}
-
-
-@media (max-width: 400px) {
-
-  .we__offer_content .blog-icon {
-    /* background-color: rgb(119, 0, 255); */
-    font-size: 0.7rem;
-  }
- .we__offer_content .blog-icon .fa-regular{
-    padding-left: 13px;
-    /* background-color: #fb8721; */
- }
-
- .we__offer_card .course_img .img-text .text{
-  
-     font-size: 0.7rem;
-  
-}
-
-}
-
-@media (max-width: 350px) {
-
-  .we__offer_content .blog-icon {
-    /* background-color: rgb(119, 0, 255); */
-    font-size: 0.5rem;
-  }
- .we__offer_content .blog-icon .fa-regular{
-    padding-left: 5px;
-    /* background-color: #fb8721; */
- }
-
- .we__offer_card .course_img .img-text .text{
-  
-     font-size: 0.6rem;
-  
-}
-
-
-
-
-
-}
-
-
-
 /* swiper */
 
 
@@ -322,3 +229,182 @@ section{
   height: 100%;
   object-fit: cover;
 } */
+
+.swipe{
+  /* background-color: #6221fb; */
+  padding:150px 5% ;
+
+}
+
+.new{
+  padding: 40px;
+}
+/* .swiper .mySwiper .new{
+  background-color: #74fb21;
+padding:150px 20% ;
+margin-left: 20px;
+} */
+
+
+
+/* Resonsive */
+
+@media (max-width: 910px) {
+/* section{
+  padding: 130px 7%;
+} */
+
+.we__offer_content .blog-icon {
+ 
+  font-size: 0.9rem;
+  /* font-weight: 500; */
+  line-height: 1.6;
+
+  gap: 0.9rem;
+}
+
+/* .swipe{
+  background-color: #fb2162;
+  padding-top: 50px ;
+  padding-bottom: 50px;
+
+} */
+
+
+/* .swipe{
+  background-color: #21d3fb;
+  padding:10px 5% ;
+
+} */
+
+}
+
+@media (max-width: 900px) {
+
+  
+/* .swipe{
+  background-color: #7c21fb;
+  padding:90px 5% ;
+
+} */
+.swipe{
+  /* background-color: #50fb21; */
+  padding-top: 70px ;
+  padding-bottom: 40px;
+
+}
+
+  .we__offer_card {
+    width: 430px;
+    
+  }
+
+  .we__offer_content h2{
+
+    font-size: 1.1rem;
+    font-weight:700;
+}
+
+.we__offer_content .subcontent p {
+  font-size: o.6rem;
+  font-weight: 500;
+
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+@media (max-width: 450px) {
+  .swipe{
+    /* background-color: #fb21c4; */
+    padding-top: 50px ;
+    padding-bottom: 30px;
+  
+  }
+
+  .we__offer_card  .course_img  img {
+    width: 100%;
+    height: 200px;
+    /* object-position: center; */
+    /* object-position: cover; */
+  }
+
+.we__offer_content h2{
+  /* background-color: aquamarine; */
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.2rem;
+}
+.course_btn{
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.we__offer_content .subcontent p{
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+  .we__offer_content .blog-icon {
+    background-color: rgb(255, 0, 204);
+    font-size: 0.6rem;
+  }
+ .we__offer_content .blog-icon .fa-regular{
+    /* padding-left: 13px; */
+    /* background-color: #fb8721; */
+ }
+
+
+ .we__offer_content .blog-icon .fa-regular{
+  padding-right: 8 px;
+  /* border-left: 1.5px solid #9a9bb2; */
+padding-left: 10px;
+}
+
+ .we__offer_card .course_img .img-text .text{
+  
+     font-size: 0.6rem;
+  
+}
+
+}
+
+@media (max-width: 345px) {
+
+
+  .we__offer_card  .course_img  img {
+    width: 100%;
+    height: 200px;
+    /* object-position: center; */
+    /* object-position: cover; */
+  }
+  .we__offer_content .blog-icon {
+    /* background-color: rgb(119, 0, 255); */
+    font-size: 0.3rem;
+  }
+ .we__offer_content .blog-icon .fa-regular{
+  padding-right: 4 px;
+  /* border-left: 1.5px solid #9a9bb2; */
+padding-left: 4px;
+}
+ 
+
+ .we__offer_card .course_img .img-text .text{
+  
+     font-size: 0.6rem;
+  
+}
+
+
+
+
+
+}
+
