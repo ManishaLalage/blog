@@ -110,7 +110,7 @@ background-color: orangered;
   }
   .we__offer_content .blog-icon span{
     /* padding-left: 12px; */
-   
+    margin-right: 10px;
   }
   .we__offer_content .blog-icon i{
     /* color: #e81212; */
@@ -228,7 +228,7 @@ section{
 
   .we__offer_content .blog-icon {
     background-color: rgb(119, 0, 255);
-    font-size: 0.5rem;
+    font-size: 0.7rem;
   }
  .we__offer_content .blog-icon .fa-regular{
     padding-left: 5px;
