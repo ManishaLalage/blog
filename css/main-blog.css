@@ -303,12 +303,15 @@ margin-left: 20px;
 
     font-size: 1.1rem;
     font-weight:700;
+        padding: 10px 12px;
+        /* background-color: #fb8721; */
+
 }
 
 .we__offer_content .subcontent p {
   font-size: o.6rem;
   font-weight: 500;
-
+padding: 0px;
 }
 
 
@@ -346,11 +349,13 @@ margin-left: 20px;
 .course_btn{
   font-size: 1rem;
   font-weight: 500;
+  padding-bottom: 3px;
 }
 
 .we__offer_content .subcontent p{
   font-size: 0.7rem;
   font-weight: 500;
+  padding: 0px;
 }
   .we__offer_content .blog-icon {
     /* background-color: rgb(255, 0, 204); */
