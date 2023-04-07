@@ -86,7 +86,7 @@ color: orangered !important;
   font-weight: 500;
   color: #9a9bb2;
   line-height: 1.6;
-  /* gap: 1rem; */
+  gap: 1rem;
 }
 .we__offer_content .blog-icon span {
   margin-right: 10px;
